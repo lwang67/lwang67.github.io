@@ -1,1 +1,3 @@
-This is your home page!
+```{R}
+![](～Documents/NCSU/ST558/HW/HW2/yellowStone.png)
+```
