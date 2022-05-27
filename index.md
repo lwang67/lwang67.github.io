@@ -1,12 +1,7 @@
+# Photo
+![flower](https://user-images.githubusercontent.com/106117423/170685828-00f79370-586d-4330-9b04-aec5edfa2b11.jpg)
+
+# my email
+
 lwang67@ncsu.edu
 
-```{r graphics, out.width = "70px", echo = FALSE}
-knitr::include_graphics("~/Documents/NCSU/ST558/HW/HW2/screenshot.png")
-```
-
----
-title: "Untitled"
-author: "Justin Post"
-date: "August 10, 2017"
-output: html_document
----
