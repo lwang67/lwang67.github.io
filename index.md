@@ -1,3 +1,1 @@
-```{R}
-![](～Documents/NCSU/ST558/HW/HW2/yellowStone.png)
-```
+![](~/Documents/NCSU/ST558/HW/HW2/dplyr.png)
