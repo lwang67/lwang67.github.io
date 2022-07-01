@@ -1,0 +1,3 @@
+For me, the coolest thing I've learned about programming in R is R can create many kinds of plot using the ggplot2 package.  
+
+for instance, .
