@@ -1,3 +1,27 @@
 For me, the coolest thing I've learned about programming in R is R can create many kinds of plot using the ggplot2 package.  
 
-for instance, .
+for instance, using the ggplot2 I can create many scatter plots.
+
+Basic scatter plot：
+
+![Screen Shot 2022-07-01 at 5 20 28 AM](https://user-images.githubusercontent.com/106117423/176885575-cfe50596-7cdb-4726-9077-a4a8521f2ed5.png)
+
+
+Change the point size,shape, and color of Basic scatter plot：
+
+![Screen Shot 2022-07-01 at 5 20 50 AM](https://user-images.githubusercontent.com/106117423/176885628-1bb3ced9-1bd3-44cd-a213-9575d8a29c52.png)
+
+
+Label points in the scatter plot：
+
+![Screen Shot 2022-07-01 at 5 21 02 AM](https://user-images.githubusercontent.com/106117423/176885660-564a38a9-4cd0-4ae6-813d-45fe498028d4.png)
+
+
+Add regression lines to the scatter plot：
+
+![Screen Shot 2022-07-01 at 5 21 25 AM](https://user-images.githubusercontent.com/106117423/176885689-a940d5f5-4576-4784-962c-b708e018c195.png)
+
+
+Scatter plots with multiple groups：
+
+![Screen Shot 2022-07-01 at 5 21 42 AM](https://user-images.githubusercontent.com/106117423/176885732-73e1c9f4-e19d-4b84-ad41-a032bc915912.png)
