@@ -1,27 +1,15 @@
-For me, the coolest thing I've learned about programming in R is R can create many kinds of plot using the ggplot2 package.  
+For me, the coolest thing I've learned about programming in R is that R has lots of libraries with a huge variety of applications.
 
-for instance, using the ggplot2 I can create many scatter plots.
+For instance, "TidyVerse" - collection of R packages that share common philosophies and are designed to work together, 
+"ggplot2" - R packages that create lots of plots.
 
-Basic scatter plot：
+Before using them, we need to install these packages and Load these libraries:
 
-![Basic](https://user-images.githubusercontent.com/106117423/176886167-ee18dec7-2bf9-4eb8-9f17-9bd2d2cd2aaf.png)
-
-
-Change the point size,shape, and color of Basic scatter plot：
-
-![color](https://user-images.githubusercontent.com/106117423/176886171-e5bd3c95-4f52-49d7-8337-7e666cbbf7de.png)
-
-
-Label points in the scatter plot：
-
-![point](https://user-images.githubusercontent.com/106117423/176886180-469b6437-906e-4452-bcab-80cfc918d2bf.png)
+```{r}
+install.packages("tidyverse")
+install.packages("ggplot2")
+library(tidyverse)
+library(ggplot2)
+```
 
 
-Add regression lines to the scatter plot：
-
-![line](https://user-images.githubusercontent.com/106117423/176886178-20d62ab6-3d39-4e41-b814-863715f168f2.png)
-
-
-Scatter plots with multiple groups：
-
-![group](https://user-images.githubusercontent.com/106117423/176886176-68372163-c915-4a60-aff5-ed87e83dd51e.png)
