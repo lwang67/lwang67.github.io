@@ -41,6 +41,6 @@ The most difficult part for me is the automation section. This part was done by 
 From this project, I learned that how to do automation. We can write code that subset a new data and run the summarize and models automatically. As the parameter change, the report will change. It's a very useful method for report!
 
 
-• link to the github pages site
+• [link to the github pages site]((https://bbittne.github.io/ST558-Project2/)
 
-• link to the project repo
+• [link to the project repo](https://github.com/bbittne/ST558-Project2)
