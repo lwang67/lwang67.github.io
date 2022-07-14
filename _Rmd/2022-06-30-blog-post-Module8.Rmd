@@ -1,0 +1,37 @@
+---
+title: "Blog Post 3 - Favorite R Features"
+author: "Li Wang"
+date: '2022-06-30'
+output:
+  github_document: default
+  
+html_document:
+  code_folding: hide
+---
+  
+```{r setup, include=FALSE}
+library(tidyverse)
+knitr::opts_chunk$set(echo = TRUE,fig.path ="../images/")
+```
+
+```{r, eval=FALSE}
+rmarkdown::render(
+  "../_Rmd/2022-06-30-blog-post-Module8.Rmd", 
+  output_format = "github_document",
+  output_dir = "../_posts",
+  output_options = list(html_preview= FALSE))
+```
+
+## Blog Post 3
+
+For me, the coolest thing I've learned about programming in R is that R has lots of libraries with a huge variety of applications.
+
+For instance, "TidyVerse" - collection of R packages that share common philosophies and are designed to work together, 
+"ggplot2" - R packages that create lots of plots.
+
+Before using them, we need to install these packages and Load these libraries:
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+```
