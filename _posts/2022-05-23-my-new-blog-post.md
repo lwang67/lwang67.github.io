@@ -1,11 +1,12 @@
 ## This is my first blog post
-1. What do you think being a data scientist is about? 
+
+### What do you think being a data scientist is about? 
 
 A data scientist is someone who is better at statistics than any software engineer and better at software engineering than any statistician. A data scientist determines the questions their team should be asking and figure out how to answer those questions using data. A data scientist often develops predictive models for theorizing and forecasting.
 
 
 
-2. What do you see as the major duties and/or knowledge areas?
+### What do you see as the major duties and/or knowledge areas?
 
 Major duties: \
 Data scientists closely follow the “data science process”: data ingest, data transformation, exploratory data analysis, model selection, model evaluation, and data storytelling.
@@ -23,7 +24,7 @@ Communication: The most brilliant data scientists won’t be able to affect any 
 
 
 
-3. What differences/similarities do you see between data scientists and statisticians? 
+### What differences/similarities do you see between data scientists and statisticians? 
 
 Differences: In current terms, the fields of data science and statistics differ in a number of ways. The fields differ in modeling processes, the size of data consumed, the types of problems studied, the academic background of the people in the field, and the terminology used.
 
@@ -33,9 +34,10 @@ Similarities:  The fields are closely related in the sense that both data scienc
 
 
 
-4.How do you view yourself in relation to these two areas?
+### How do you view yourself in relation to these two areas?
 
 As a graduate student of statistics, I can use a tool like R, Python, SAS, or even excel to analyze data and find certain patterns from the data. I think I will be at an advantage to be a data scientist or statistician after finishing my courses.
+
  ```tsql
  SELECT *
  FROM sys.tables
