@@ -1,19 +1,9 @@
----
-title: "Project 1"
-author: "Li Wang"
-date: '2022-06-25'
-output: 
-  github_document: default
-   
-  html_document:
-    code_folding: hide
----
+Project 1
+================
+Bryan Bittner
+2022-06-24
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE,fig.path = "../images/")
-```
-
-``` {r}
+``` r
 rmarkdown::render("_Rmd/2022-06-25-blog-post-Project1.Rmd", 
                   output_format = "github_document",
                   output_dir = "./_posts",
