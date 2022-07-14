@@ -1,7 +1,7 @@
 Project 1
 ================
-Bryan Bittner
-2022-06-24
+Li Wang
+2022-06-25
 
 ``` r
 rmarkdown::render("_Rmd/2022-06-25-blog-post-Project1.Rmd", 
