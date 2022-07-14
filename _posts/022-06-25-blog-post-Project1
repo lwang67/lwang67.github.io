@@ -1,3 +1,29 @@
+---
+title: "Project 1"
+author: "Li Wang"
+date: '2022-06-25'
+output: 
+  github_document: default
+   
+  html_document:
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,fig.path = "../images/")
+```
+
+``` {r}
+rmarkdown::render("_Rmd/2022-06-25-blog-post-Project1.Rmd", 
+                  output_format = "github_document",
+                  output_dir = "./_posts",
+                  output_options = list(
+                    html_preview= FALSE
+                    )
+)
+```
+
+
 ## Project1
 
 ### Explaining what I did in the project and any interesting findings
