@@ -38,6 +38,6 @@ In this project, I just did some fundamental exploratory data analysis. In the f
 
 
 
-• [link to the github pages repo](https://lwang67.github.io/)
+• [link to the github pages repo](https://lwang67.github.io/ST558_project1/)
 
 • [link the regular repo](https://github.com/lwang67/ST558_project1)
