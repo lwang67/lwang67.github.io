@@ -1,0 +1,73 @@
+---
+title: "Fourth Blog Post"
+author: "Li Wang"
+date: '2022-07-20'
+output: 
+  github_document: default
+
+html_document:
+  code_folding: hide
+---
+  
+
+```{r, eval=FALSE}
+rmarkdown::render("../_Rmd/2022-07-20-blog-post-Module11.Rmd", 
+                  output_format ="github_document",
+                  output_dir = "../_posts",output_options = list(html_preview= FALSE))
+```
+
+
+## Fourth Blog Post - Machine Learning
+
+We just finished our section on machine learning and learned a lot of machine learning methods. I think KNN is the most interesting!
+  
+The abbreviation KNN stands for “K-Nearest Neighbour”. It is a supervised machine learning algorithm. The algorithm can be used to solve both classification and regression problem statements. The number of nearest neighbours to a new unknown variable that has to be predicted or classified is denoted by the symbol ‘K’.
+
+
+## For an example:
+
+### 1. load the libraries
+```{r, message=FALSE,warning=FALSE}
+library(caret)
+library(gbm)
+library(foreach)
+library(magrittr)
+library(plyr)
+```
+
+
+### 2. Load the ‘iris’ data 
+```{r}
+data(iris)
+```
+
+
+### 3. Split the data:70% train,30% test.
+```{r}
+set.seed(111)
+split <- createDataPartition(y = iris$Species, p = 0.7, list = FALSE)
+train <- iris[split, ]
+test <- iris[-split, ]
+```
+
+
+### 4. train the kNN model.Use repeated 10 fold cross-validation, with the number of repeats being 3, also preprocess the data by centering and scaling. Lastly, set the tuneGrid so that you are considering values of k of 1, 2, 3, . . . , 20.
+
+```{r}
+kNNFit <- train(Species ~., data = train,
+method = "knn",
+trControl = trainControl(method = "repeatedcv", number = 10, repeats = 3),
+preProcess = c("center", "scale"),
+tuneGrid = data.frame(k = 1:20))
+kNNFit
+```
+
+The model gives the highest accuracy for K = 9, therefore, the final value used for the model was k = 9.
+
+### 5. Check how well the model does on the test set using the confusionMatrix() function.
+
+```{r}
+confusionMatrix(kNNFit, newdata = test)
+```
+
+The Accuracy (average) is 0.9746.
